@@ -107,7 +107,7 @@
   organizeProducts();
  })();
  //  btn event function
- function filterBtnClickHandler() 
+ function filterBtnClickHandler() {
   const filterType = this.dataset.id.toLowerCase();
   const containerCategory = productContainer.dataset.category;
   if (filterType === containerCategory) return;
